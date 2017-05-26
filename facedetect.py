@@ -13,9 +13,9 @@ gary=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
 faces=face_cascade.detectMultiScale(
 gary,
-scaleFactor=1.2,
+scaleFactor=1.1,
 minNeighbors=3,
-minSize=(20,20),
+minSize=(30,30),
 flags=cv2.cv.CV_HAAR_SCALE_IMAGE
 )
 
